@@ -1,0 +1,227 @@
+           /*login*/
+/*
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: blueviolet;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
+  #loginbox {
+    width: 320px;
+    height: 500px;
+    background: white;
+    color: black;
+    top: 10%;
+    left: 35%;
+    position: absolute;
+  box-sizing: border-box;
+  font-weight: bold;
+  padding: 70px 30px;
+  }
+  h1 {
+     margin: 0px;
+    padding: 0px 0px 20px;
+    text-align: center;
+    font-size: 22px;
+    background: fixed;
+    color: black;
+  }
+  #loginbox p {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  #loginbox input {
+    width: 80%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 15px;
+    color: #fff;
+    font-size: 8px;
+  }
+  #forgot {
+    margin: 0px;
+    font-size: 8px;
+    text-align: right;
+  }
+  #text {
+    margin: 0px;
+    text-align: center;
+  }
+  .social {
+    text-align: center;
+  }
+   
+  button {
+  
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    box-shadow: 0px 0px 5px cyan , 0px 0px 25px;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
+    display: block;
+  }
+   
+   button:hover {
+    box-shadow: 0px 0px 5px cyan , 0px 0px 25px cyan, 0px 0px 50px ;
+   }
+   */
+  
+   /*
+animation button
+
+   button {
+    position: relative;
+    width: 200px;
+    padding: 10px 10px;
+    align-items: center;
+    font-size: larger;
+    text-align: center;
+    box-shadow: 0px 0px 5px cyan , 0px 0px 25px;
+   }
+
+   button:hover {
+    box-shadow: 0px 0px 5px cyan , 0px 0px 25px cyan, 0px 0px 50px ;
+   }
+  */
+                           /*Swiggy project*/
+                           
+
+  .navbar{
+    background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+   }
+   .rightside , .leftside {
+    list-style-type: none;
+    margin: 0px;
+   }
+   .rightside li , .leftside li{
+    display: inline-block;
+   }
+   .rightside li a, .leftside li a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px;
+    font-weight: bold;
+   }
+   
+   .box {
+    height: 10px;
+    padding-top: 30px ;
+    border-radius: 25%;
+   }
+   
+   .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   #backBtn , #forwardBtn {
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+   }
+   
+   .gallery {
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+   }
+   .gallery div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    flex: none;
+   }
+   .gallery div img {
+    padding: 10px;
+   }
+   .container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+  
+   .container2 img {
+    border:30px solid white;
+    cursor: pointer;
+   }
+   .container2 img:hover {
+    transform: scale(1.5);
+   }
+  
+  h3 {
+    font-weight: bolder;
+  }
+  .btn {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn img {
+    display: flex;
+  cursor: pointer;
+  transition: 0.2s;
+  }
+  .item img:hover {
+    transform: scale(1.04);
+  }
+  
+  .btn button {
+    background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
+   border-radius: 0.5rem;
+   border: 20px solid white;
+   color: white;
+  
+  }
+  .container4{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: bottom absolute;
+    justify-content: space-between;
+   }
+  
+  .item img {
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 0px;
+  padding: 0px;
+  }
+  .item img:hover {
+    transform: scale(1.04);
+  }
+  
+  .item button {
+    background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
+   border-radius: 0.5rem;
+   
+  }
+  span {
+    background-color: black;
+    color: white;
+  }
+
+  span1 {
+
+    background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
+  }
+
+ .one {
+  width: 1500px;
+  height: 100px;
+  background-color: black;
+ }
